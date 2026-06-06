@@ -14,30 +14,128 @@ Under no circumstances should an LLM or Reinforcement Learning (RL) policy issue
 
 ---
 
-## 1. System Architecture
+## 1. System Architecture & Project Flow
 
-```mermaid
-flowchart TD
-    SCADA[Grid SCADA Systems] -->|Raw Telemetry| Ingest[POST /api/v1/telemetry/ingest]
-    Ingest -->|State Space JSON| Estimator[State Estimator]
-    Estimator -->|Merged GridState| Solver[MILP Solver Engine]
-    Solver -->|Proposed Mitigation Plan| PGL[Physics Guardrail Layer]
-    PGL -->|Approved? Yes| Translator[Command Translator]
-    PGL -->|Approved? No| Rejection[Return HTTP 422 Rejection]
-    Translator -->|ExecutionSequence| SCADA_Act[SCADA Actuation Endpoint]
-    SCADA_Act -->|DNP3/IEC-104 Commands| SCADA
-    
-    WD[Watchdog Heartbeat Timer] -.->|Heartbeat Ping/ACK| SCADA
-    WD -.->|Timeout > 30s| Revoke[Revoke Agent Write Access]
-    
-    Estop[Emergency Disconnect Switch] -.->|Operator Click| Block[Sever SCADA write channels]
+AuraGrid is built as a layered, modular control backend. The modules are separated by distinct computational bounds (Perception → Reasoning → Physics Guardrails → Actuation) to enforce safety separation.
+
+### 1.1 Project Directory Structure
+
+```
+agent_layer/
+├── data/                               # Substation database files by city
+│   ├── Bengaluru Electrical Substations.csv
+│   └── bhopal_substations.csv etc.
+├── src/
+│   └── auragrid/
+│       ├── main.py                     # FastAPI application entry & lifespans
+│       ├── config.py                   # Pydantic-based system configurations
+│       ├── auth.py                     # Simple Bearer token security module
+│       ├── models/                     # Spec JSON schemas as Pydantic models
+│       │   ├── grid_state.py           # Ingest contract (State Space)
+│       │   ├── agent_action.py         # Decision schemas (Mitigation Plan)
+│       │   └── scada_command.py        # Actuation schemas (Execution Sequence)
+│       ├── grid/
+│       │   └── topology.py             # CSV Parser & Graph Topology Builder
+│       ├── perception/                 # Perception Layer
+│       │   ├── state_estimator.py      # Telemetry state tracker
+│       │   ├── exposure.py             # Exposure calculation
+│       │   └── forecaster_stub.py      # Wavelet forecaster placeholder
+│       ├── reasoning/                  # Reasoning Layer
+│       │   ├── base_engine.py          # Abstract decision engine interface
+│       │   ├── milp_engine.py          # Receding horizon MILP solver (PuLP)
+│       │   └── rl_stub_engine.py       # Stub for Reinforcement Learning
+│       ├── guardrails/                 # Zero-Trust Physics Guardrails
+│       │   ├── physics_guardrail.py    # Kirchhoff's, Ohm's, and Swing Solver
+│       │   └── safety_checks.py        # Hospital protection, 30% limit checks
+│       ├── actuation/                  # Actuation Layer
+│       │   ├── command_translator.py   # High-level actions -> SCADA translator
+│       │   └── scada_client_stub.py    # Log/DNP3 client dispatcher mockup
+│       ├── failsafe/                   # Fail-Safe Lock Systems
+│       │   ├── watchdog.py             # Heartbeat keeper & token revoker
+│       │   └── emergency_disconnect.py # Singleton physical E-stop switch
+│       └── routes/                     # FastAPI endpoint handlers
+└── tests/                              # Pytest test suite (100% test coverage)
 ```
 
-- **Perception Layer (`state_estimator.py`, `exposure.py`):** Ingests raw active power ($P_t$), reactive power ($Q_t$), frequency ($f_t$), and breaker states ($B_t$). Calculates the cascade risk exposure coefficient.
-- **Reasoning Layer (`milp_engine.py`):** Primary MILP receding horizon decision engine solving for optimal load shedding and line isolation while penalizing breaker mechanical degradation.
-- **Physics Guardrail Layer (`physics_guardrail.py`):** Hardcoded checks including linear DC Power Flow matrix solver, islanding protection, and Swing Equation Rate of Change of Frequency (RoCoF) limit checks.
-- **Actuation Layer (`command_translator.py`, `scada_client_stub.py`):** Formulates discrete step-based SCADA commands (`LOAD_SHEDGER` and `BREAKER`) and verifies check relays.
-- **Fail-safes (`watchdog.py`, `emergency_disconnect.py`):** Revokes write access if the keep-alive ping loop goes unacknowledged for >30s, and supports instant emergency disconnection.
+---
+
+### 1.2 Data and Process Control Flow
+
+The operational flow of the grid control loop is strictly unidirectional, guaranteeing that every command sequence is analyzed by the Physics Guardrail Layer before actuation:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant SCADA as SCADA Telemetry
+    participant API as FastAPI Ingestion
+    participant PE as Perception (State Estimator)
+    participant RE as Reasoning (MILP Solver)
+    participant PG as Physics Guardrails (PGL)
+    participant AC as Actuation (Command Translator)
+    participant SC as SCADA Dispatcher
+
+    SC->>API: POST /api/v1/telemetry/ingest (grid JSON)
+    API->>PE: update state & check cascade risk exposure
+    Note over PE: If exposure > 65%, alert reasoning engine
+    
+    API->>RE: Trigger solve()
+    RE->>PE: Get current state & look-ahead forecast
+    RE->>RE: Run MILP receding horizon MPC solver
+    RE->>API: Return proposed MitigationPlan (Load sheds/Isolations)
+    
+    API->>PG: Validate plan (Kirchhoff's, Ohm's, swing equation RoCoF)
+    alt Validation FAILS
+        PG->>API: Return validation errors (Reasons list)
+        API->>SC: Return HTTP 422 (Mitigation Plan Rejected)
+    else Validation SUCCEEDS
+        PG->>API: Approve plan (estimated frequency impact)
+        API->>AC: Send approved plan
+        AC->>AC: Translate node actions to device commands (LOAD_SHEDGER/BREAKER)
+        AC->>SC: Dispatch ExecutionSequence to SCADA
+        SC->>SCADA: Execute breaker operations
+    end
+```
+
+---
+
+### 1.3 State Control Loop Lifecycle
+
+The system runs a deterministic state machine managing agent access and grid safety status:
+
+```mermaid
+stateDiagram-v2
+    [*] --> ManualMode : System Startup
+    ManualMode --> ActiveMonitoring : Telemetry Ingestion Initalized
+    
+    state ActiveMonitoring {
+        [*] --> Normal : Exposure <= 65%
+        Normal --> Vulnerable : Exposure > 65%
+        Vulnerable --> Normal : Grid Re-stabilized
+    }
+    
+    ActiveMonitoring --> AutonomousMitigation : Exposure > 65% & Mitigation Triggered
+    
+    state AutonomousMitigation {
+        [*] --> SolveMPC : Run MILP Solver
+        SolveMPC --> RunPhysicsGuardrail : Solve Optimal Plan
+        RunPhysicsGuardrail --> DispatchCommands : Guardrails Passed (Approved)
+        RunPhysicsGuardrail --> AbortMitigation : Guardrails Failed (Rejected)
+        DispatchCommands --> [*]
+        AbortMitigation --> [*]
+    }
+    
+    AutonomousMitigation --> ActiveMonitoring : Grid Stabilized
+    
+    ActiveMonitoring --> SafetyShutdown : Watchdog Timeout (>30s) / E-Stop Active
+    AutonomousMitigation --> SafetyShutdown : Watchdog Timeout (>30s) / E-Stop Active
+    
+    state SafetyShutdown {
+        [*] --> SeverWriteAccess : Revoke Bearer Token Authorization
+        SeverWriteAccess --> ManualOverride : Revert to Human Control
+    }
+    
+    ManualOverride --> ActiveMonitoring : Manual Reconnect (Token Auth)
+```
 
 ---
 
