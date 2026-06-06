@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Bhopal Divisions</name>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">GOVINDPURA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.4389,23.2312,0 77.4789,23.2312,0 77.4789,23.2712,0 77.4389,23.2712,0 77.4389,23.2312,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">KOLAR ROAD</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.3982,23.1584,0 77.4382,23.1584,0 77.4382,23.1984,0 77.3982,23.1984,0 77.3982,23.1584,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">BAIRAGARH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.3258,23.2647,0 77.3658,23.2647,0 77.3658,23.3047,0 77.3258,23.3047,0 77.3258,23.2647,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">TT NAGAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.37950000000001,23.2184,0 77.4195,23.2184,0 77.4195,23.258399999999998,0 77.37950000000001,23.258399999999998,0 77.37950000000001,23.2184,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">MP NAGAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.41210000000001,23.2124,0 77.4521,23.2124,0 77.4521,23.252399999999998,0 77.41210000000001,23.252399999999998,0 77.41210000000001,23.2124,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">ARERA COLONY</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.40910000000001,23.1924,0 77.4491,23.1924,0 77.4491,23.2324,0 77.40910000000001,23.2324,0 77.40910000000001,23.1924,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

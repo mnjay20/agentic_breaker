@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Jhansi Divisions</name>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">CIVIL LINES</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>78.55210000000001,25.4344,0 78.5921,25.4344,0 78.5921,25.4744,0 78.55210000000001,25.4744,0 78.55210000000001,25.4344,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">SADAR BAZAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>78.5445,25.4144,0 78.58449999999999,25.4144,0 78.58449999999999,25.4544,0 78.5445,25.4544,0 78.5445,25.4144,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">SIPRI BAZAAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>78.52890000000001,25.4262,0 78.5689,25.4262,0 78.5689,25.4662,0 78.52890000000001,25.4662,0 78.52890000000001,25.4262,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">JHANSI FORT</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>78.5584,25.4389,0 78.5984,25.4389,0 78.5984,25.4789,0 78.5584,25.4789,0 78.5584,25.4389,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">HANSARI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>78.5258,25.3984,0 78.5658,25.3984,0 78.5658,25.438399999999998,0 78.5258,25.438399999999998,0 78.5258,25.3984,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

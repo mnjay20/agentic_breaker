@@ -1,0 +1,70 @@
+Sl. No,Zone,District,Taluk,Name of Sub-Station,Voltage Class (in kV),Date of commission
+1,BHOPAL,Bhopal,Govindpura,Govindpura Hub,400,12-04-2005
+2,BHOPAL,Bhopal,Govindpura,Govindpura Grid,220,18-09-2009
+3,BHOPAL,Bhopal,Govindpura,Govindpura Sector 1,220,01-12-2003
+4,BHOPAL,Bhopal,Govindpura,Govindpura Sector 2,66,08-04-1999
+5,BHOPAL,Bhopal,Govindpura,Govindpura Sector 3,66,24-02-2016
+6,BHOPAL,Bhopal,Govindpura,Govindpura Sector 4,66,24-09-1997
+7,BHOPAL,Bhopal,Govindpura,Govindpura Sector 5,220,19-07-1996
+8,BHOPAL,Bhopal,Govindpura,Govindpura Sector 6,66,01-02-2001
+9,BHOPAL,Bhopal,Govindpura,Govindpura Sector 7,66,08-09-2014
+10,BHOPAL,Bhopal,Govindpura,Govindpura Sector 8,66,01-09-2001
+11,BHOPAL,Bhopal,Kolar road,Kolar road Hub,400,12-04-2005
+12,BHOPAL,Bhopal,Kolar road,Kolar road Grid,220,18-09-2009
+13,BHOPAL,Bhopal,Kolar road,Kolar road Sector 1,220,14-04-2009
+14,BHOPAL,Bhopal,Kolar road,Kolar road Sector 2,66,19-05-2020
+15,BHOPAL,Bhopal,Kolar road,Kolar road Sector 3,66,28-01-2019
+16,BHOPAL,Bhopal,Kolar road,Kolar road Sector 4,66,26-03-2017
+17,BHOPAL,Bhopal,Kolar road,Kolar road Sector 5,220,14-06-2003
+18,BHOPAL,Bhopal,Kolar road,Kolar road Sector 6,66,05-04-2019
+19,BHOPAL,Bhopal,Kolar road,Kolar road Sector 7,66,11-02-1997
+20,BHOPAL,Bhopal,Kolar road,Kolar road Sector 8,66,13-02-2006
+21,BHOPAL,Bhopal,Kolar road,Kolar road Sector 9,220,28-06-2014
+22,BHOPAL,Bhopal,Kolar road,Kolar road Sector 10,66,09-01-2018
+23,BHOPAL,Bhopal,Kolar road,Kolar road Sector 11,66,15-09-1998
+24,BHOPAL,Bhopal,Kolar road,Kolar road Sector 12,66,13-02-2012
+25,BHOPAL,Bhopal,Bairagarh,Bairagarh Hub,400,12-04-2005
+26,BHOPAL,Bhopal,Bairagarh,Bairagarh Grid,220,18-09-2009
+27,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 1,220,27-11-2014
+28,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 2,66,28-06-2013
+29,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 3,66,07-12-1997
+30,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 4,66,02-11-2002
+31,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 5,220,25-05-1997
+32,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 6,66,28-04-2022
+33,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 7,66,04-07-2003
+34,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 8,66,15-11-2021
+35,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 9,220,12-03-2006
+36,BHOPAL,Bhopal,Bairagarh,Bairagarh Sector 10,66,12-04-2016
+37,BHOPAL,Bhopal,Tt nagar,Tt nagar Hub,400,12-04-2005
+38,BHOPAL,Bhopal,Tt nagar,Tt nagar Grid,220,18-09-2009
+39,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 1,220,23-11-2015
+40,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 2,66,03-10-2015
+41,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 3,66,06-09-2018
+42,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 4,66,08-03-2009
+43,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 5,220,13-05-2015
+44,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 6,66,23-09-2002
+45,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 7,66,22-06-2021
+46,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 8,66,25-01-2002
+47,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 9,220,27-01-2020
+48,BHOPAL,Bhopal,Tt nagar,Tt nagar Sector 10,66,11-07-2003
+49,BHOPAL,Bhopal,Mp nagar,Mp nagar Hub,400,12-04-2005
+50,BHOPAL,Bhopal,Mp nagar,Mp nagar Grid,220,18-09-2009
+51,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 1,220,07-10-2017
+52,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 2,66,11-04-2015
+53,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 3,66,16-07-2015
+54,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 4,66,15-03-2003
+55,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 5,220,05-04-2018
+56,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 6,66,18-09-2003
+57,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 7,66,24-10-2008
+58,BHOPAL,Bhopal,Mp nagar,Mp nagar Sector 8,66,19-07-2006
+59,BHOPAL,Bhopal,Arera colony,Arera colony Hub,400,12-04-2005
+60,BHOPAL,Bhopal,Arera colony,Arera colony Grid,220,18-09-2009
+61,BHOPAL,Bhopal,Arera colony,Arera colony Sector 1,220,05-09-2010
+62,BHOPAL,Bhopal,Arera colony,Arera colony Sector 2,66,03-01-2022
+63,BHOPAL,Bhopal,Arera colony,Arera colony Sector 3,66,04-03-2015
+64,BHOPAL,Bhopal,Arera colony,Arera colony Sector 4,66,06-11-2008
+65,BHOPAL,Bhopal,Arera colony,Arera colony Sector 5,220,20-02-2007
+66,BHOPAL,Bhopal,Arera colony,Arera colony Sector 6,66,13-10-2009
+67,BHOPAL,Bhopal,Arera colony,Arera colony Sector 7,66,17-05-2012
+68,BHOPAL,Bhopal,Arera colony,Arera colony Sector 8,66,28-01-2016
+69,BHOPAL,Bhopal,Arera colony,Arera colony Sector 9,220,24-02-2016

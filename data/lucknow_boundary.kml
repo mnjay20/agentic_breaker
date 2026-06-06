@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Lucknow Divisions</name>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">GOMTI NAGAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9824,26.8424,0 81.02239999999999,26.8424,0 81.02239999999999,26.8824,0 80.9824,26.8824,0 80.9824,26.8424,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">CHARBAGH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9038,26.8112,0 80.9438,26.8112,0 80.9438,26.8512,0 80.9038,26.8512,0 80.9038,26.8112,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">ALIGANJ</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9212,26.8656,0 80.96119999999999,26.8656,0 80.96119999999999,26.9056,0 80.9212,26.9056,0 80.9212,26.8656,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">INDIRA NAGAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9721,26.8684,0 81.01209999999999,26.8684,0 81.01209999999999,26.9084,0 80.9721,26.9084,0 80.9721,26.8684,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">HAZRATGANJ</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9252,26.8292,0 80.9652,26.8292,0 80.9652,26.8692,0 80.9252,26.8692,0 80.9252,26.8292,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">CHOWK</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.8784,26.8478,0 80.91839999999999,26.8478,0 80.91839999999999,26.8878,0 80.8784,26.8878,0 80.8784,26.8478,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">AMINABAD</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>80.9054,26.822400000000002,0 80.94539999999999,26.822400000000002,0 80.94539999999999,26.8624,0 80.9054,26.8624,0 80.9054,26.822400000000002,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

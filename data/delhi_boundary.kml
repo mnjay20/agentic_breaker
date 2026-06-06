@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Delhi Divisions</name>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">DWARKA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.0378,28.5689,0 77.0778,28.5689,0 77.0778,28.6089,0 77.0378,28.6089,0 77.0378,28.5689,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">ROHINI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.0937,28.695800000000002,0 77.13369999999999,28.695800000000002,0 77.13369999999999,28.7358,0 77.0937,28.7358,0 77.0937,28.695800000000002,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">OKHLA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.2521,28.5084,0 77.29209999999999,28.5084,0 77.29209999999999,28.5484,0 77.2521,28.5484,0 77.2521,28.5084,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">MAYUR VIHAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.2806,28.5894,0 77.3206,28.5894,0 77.3206,28.6294,0 77.2806,28.6294,0 77.2806,28.5894,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">JANAKPURI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.0678,28.6019,0 77.1078,28.6019,0 77.1078,28.6419,0 77.0678,28.6419,0 77.0678,28.6019,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">CONNAUGHT PLACE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.1977,28.610400000000002,0 77.23769999999999,28.610400000000002,0 77.23769999999999,28.6504,0 77.1977,28.6504,0 77.1977,28.610400000000002,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">KAROL BAGH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.17070000000001,28.6314,0 77.2107,28.6314,0 77.2107,28.6714,0 77.17070000000001,28.6714,0 77.17070000000001,28.6314,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">SAKET</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>77.18910000000001,28.476200000000002,0 77.2291,28.476200000000002,0 77.2291,28.5162,0 77.18910000000001,28.5162,0 77.18910000000001,28.476200000000002,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

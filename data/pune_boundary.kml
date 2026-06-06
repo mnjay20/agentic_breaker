@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Pune Divisions</name>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">HINJAWADI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.7189,18.5713,0 73.7589,18.5713,0 73.7589,18.6113,0 73.7189,18.6113,0 73.7189,18.5713,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">KOTHRUD</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.7877,18.4874,0 73.8277,18.4874,0 73.8277,18.5274,0 73.7877,18.5274,0 73.7877,18.4874,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">SHIVAJINAGAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.8349,18.5108,0 73.8749,18.5108,0 73.8749,18.5508,0 73.8349,18.5508,0 73.8349,18.5108,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">HADAPSAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.90610000000001,18.4889,0 73.9461,18.4889,0 73.9461,18.5289,0 73.90610000000001,18.5289,0 73.90610000000001,18.4889,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">BANER</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.7775,18.539,0 73.8175,18.539,0 73.8175,18.579,0 73.7775,18.579,0 73.7775,18.539,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">PIMPRI</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.7797,18.6078,0 73.8197,18.6078,0 73.8197,18.6478,0 73.7797,18.6478,0 73.7797,18.6078,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<ExtendedData>
+			<SchemaData>
+				<SimpleData name="DivisionName">CAMP</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>73.8589,18.4934,0 73.8989,18.4934,0 73.8989,18.5334,0 73.8589,18.5334,0 73.8589,18.4934,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,59 @@
+Sl. No,Zone,District,Taluk,Name of Sub-Station,Voltage Class (in kV),Date of commission
+1,JHANSI,Jhansi,Civil lines,Civil lines Hub,400,12-04-2005
+2,JHANSI,Jhansi,Civil lines,Civil lines Grid,220,18-09-2009
+3,JHANSI,Jhansi,Civil lines,Civil lines Sector 1,220,01-12-2003
+4,JHANSI,Jhansi,Civil lines,Civil lines Sector 2,66,08-04-1999
+5,JHANSI,Jhansi,Civil lines,Civil lines Sector 3,66,24-02-2016
+6,JHANSI,Jhansi,Civil lines,Civil lines Sector 4,66,24-09-1997
+7,JHANSI,Jhansi,Civil lines,Civil lines Sector 5,220,19-07-1996
+8,JHANSI,Jhansi,Civil lines,Civil lines Sector 6,66,01-02-2001
+9,JHANSI,Jhansi,Civil lines,Civil lines Sector 7,66,08-09-2014
+10,JHANSI,Jhansi,Civil lines,Civil lines Sector 8,66,01-09-2001
+11,JHANSI,Jhansi,Sadar bazar,Sadar bazar Hub,400,12-04-2005
+12,JHANSI,Jhansi,Sadar bazar,Sadar bazar Grid,220,18-09-2009
+13,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 1,220,14-04-2009
+14,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 2,66,19-05-2020
+15,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 3,66,28-01-2019
+16,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 4,66,26-03-2017
+17,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 5,220,14-06-2003
+18,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 6,66,05-04-2019
+19,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 7,66,11-02-1997
+20,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 8,66,13-02-2006
+21,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 9,220,28-06-2014
+22,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 10,66,09-01-2018
+23,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 11,66,15-09-1998
+24,JHANSI,Jhansi,Sadar bazar,Sadar bazar Sector 12,66,13-02-2012
+25,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Hub,400,12-04-2005
+26,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Grid,220,18-09-2009
+27,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 1,220,27-11-2014
+28,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 2,66,28-06-2013
+29,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 3,66,07-12-1997
+30,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 4,66,02-11-2002
+31,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 5,220,25-05-1997
+32,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 6,66,28-04-2022
+33,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 7,66,04-07-2003
+34,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 8,66,15-11-2021
+35,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 9,220,12-03-2006
+36,JHANSI,Jhansi,Sipri bazaar,Sipri bazaar Sector 10,66,12-04-2016
+37,JHANSI,Jhansi,Jhansi fort,Jhansi fort Hub,400,12-04-2005
+38,JHANSI,Jhansi,Jhansi fort,Jhansi fort Grid,220,18-09-2009
+39,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 1,220,23-11-2015
+40,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 2,66,03-10-2015
+41,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 3,66,06-09-2018
+42,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 4,66,08-03-2009
+43,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 5,220,13-05-2015
+44,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 6,66,23-09-2002
+45,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 7,66,22-06-2021
+46,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 8,66,25-01-2002
+47,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 9,220,27-01-2020
+48,JHANSI,Jhansi,Jhansi fort,Jhansi fort Sector 10,66,11-07-2003
+49,JHANSI,Jhansi,Hansari,Hansari Hub,400,12-04-2005
+50,JHANSI,Jhansi,Hansari,Hansari Grid,220,18-09-2009
+51,JHANSI,Jhansi,Hansari,Hansari Sector 1,220,07-10-2017
+52,JHANSI,Jhansi,Hansari,Hansari Sector 2,66,11-04-2015
+53,JHANSI,Jhansi,Hansari,Hansari Sector 3,66,16-07-2015
+54,JHANSI,Jhansi,Hansari,Hansari Sector 4,66,15-03-2003
+55,JHANSI,Jhansi,Hansari,Hansari Sector 5,220,05-04-2018
+56,JHANSI,Jhansi,Hansari,Hansari Sector 6,66,18-09-2003
+57,JHANSI,Jhansi,Hansari,Hansari Sector 7,66,24-10-2008
+58,JHANSI,Jhansi,Hansari,Hansari Sector 8,66,19-07-2006
